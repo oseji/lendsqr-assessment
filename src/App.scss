@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/fonts/Poppins-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#App{
+    padding:  0 97px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#loginPage{
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sectionGroups{
+        width: 45%;
+        min-height: 100dvh;
+    }
+
+    .logo{
+        padding-top: 106px;
+    }
+
+    .loginPageImage{
+        width: 90%;
+        padding-top: 139px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #213F7D;
+        }
+    }
+
+    .loginInputGroup{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        border: 2px solid;
+        border-radius: 5px;
+        border-color: #545F7D26;
+        margin-bottom: 24px;
+        padding: 10px;
+    }
+
+    input{
+        width: 100%;
+        outline: none;
+        border: none;
+
+    }
+
+    button{
+        width: 100%;
+        background-color: #39CDCC;
+        color: white;
+        padding: 15px 0;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
