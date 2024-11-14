@@ -63,7 +63,119 @@ const UserDetails = () => {
         </ul>
       </div>
 
-      <div className="bottomDetailsCard"></div>
+      <div className="bottomDetailsCard">
+        <section>
+          <h3>personal information</h3>
+
+          <div className="bottomDetailsRow">
+            <div className="info">
+              <label>full name</label>
+              <p>Grace Effiom</p>
+            </div>
+            <div className="info">
+              <label>phone number</label>
+              <p>07060780922</p>
+            </div>
+            <div className="info">
+              <label>email address</label>
+              <span>grace@gmail.com</span>
+            </div>
+            <div className="info">
+              <label>bvn</label>
+              <p>07060780922</p>
+            </div>
+            <div className="info">
+              <label>marital status</label>
+              <p>Single</p>
+            </div>
+            <div className="info">
+              <label>children</label>
+              <p>None</p>
+            </div>
+            <div className="info">
+              <label>type of residence</label>
+              <p>Parent’s Apartment</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Education and Employment</h3>
+
+          <div className="bottomDetailsRow">
+            <div className="info">
+              <label>level of education</label>
+              <p>b.Sc</p>
+            </div>
+            <div className="info">
+              <label>employment status</label>
+              <p>employed</p>
+            </div>
+            <div className="info">
+              <label>sector of employment</label>
+              <p>fintech</p>
+            </div>
+            <div className="info">
+              <label>Duration of employment</label>
+              <p>2 years</p>
+            </div>
+            <div className="info">
+              <label>office email</label>
+              <span>grace@lendsqr.com</span>
+            </div>
+            <div className="info">
+              <label>Monthly income</label>
+              <p>₦200,000.00- ₦400,000.00</p>
+            </div>
+            <div className="info">
+              <label>loan repayment</label>
+              <p>40,000</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>socials</h3>
+
+          <div className="bottomDetailsRow">
+            <div className="info">
+              <label>twitter</label>
+              <span>@grace_effiom</span>
+            </div>
+            <div className="info">
+              <label>facebook</label>
+              <span>Grace Effiom</span>
+            </div>
+            <div className="info">
+              <label>instagram</label>
+              <span>@grace_effiom</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>guarantor</h3>
+
+          <div className="bottomDetailsRow">
+            <div className="info">
+              <label>fullname</label>
+              <p>Debby Ogana</p>
+            </div>
+            <div className="info">
+              <label>phone number</label>
+              <p>07060780922</p>
+            </div>
+            <div className="info">
+              <label>email address</label>
+              <span>debby@gmail.com</span>
+            </div>
+            <div className="info">
+              <label>relationship</label>
+              <p>sister</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
