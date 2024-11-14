@@ -13,9 +13,11 @@ const Dashboard = () => {
       <main>
         <Sidebar />
         <Routes>
-          <Route path="/" element={<DashboardContent />} />
+          {/* <Route path="/" element={<DashboardContent />} /> */}
 
-          <Route path="/UserDetails" element={<UserDetails />} />
+          {/* <Route path="/UserDetails" element={<UserDetails />} /> */}
+
+          <Route path="/" element={<UserDetails />} />
         </Routes>
       </main>
     </div>

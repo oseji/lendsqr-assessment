@@ -256,12 +256,23 @@ $active-color: #39CD62;
             width: 100%;
         }
 
+        tbody{
+            tr{
+                border-bottom: 1px solid rgb(201, 201, 201);
+
+                .organizationName,.username{
+                    text-transform: capitalize;
+                }
+            }
+        }
+
         tr{
             position: relative;
             display: flex;
             flex-direction: row;
             align-items: center;
             gap: 10px;
+            cursor: pointer;
 
             .optionModal {
                     position: absolute;
@@ -372,4 +383,102 @@ $active-color: #39CD62;
 
     }
    
+}
+
+
+#userDetails{
+    width: 100%;
+    background-color: rgba(239, 239, 239, 0.51);
+    min-height: 100dvh;
+    max-height: 100dvh;
+    padding: 30px;
+
+    .headingGroup{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+       
+        h1{
+            color: $inactive-color;
+            font-weight: 500;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+        }
+
+        .headingButtonGroup{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+
+            button {
+                background-color: transparent;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 0.875rem;
+                border-radius: 8px;
+                padding: 12px 16px;
+                border:  1px solid;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+        .topDetailsCard {
+            width: 100%;
+            padding: 30px 30px 0 30px;
+            margin-top: 40px;
+            background-color: #fff;
+            border-radius: 4px;
+    
+            .topSection {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 20px;
+                width: 100%;
+    
+                .nameAndRegNumber {
+                    h2 {
+                        color: $primary-text-color;
+                        font-size: 1.375rem;
+                        font-weight: 500;
+                    }
+
+                    p{
+                        font-size: 0.875rem;
+                    }
+                }
+    
+                .starsGroup {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+            }
+
+            .bottomSection{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0;
+                margin-top: 50px;
+
+                li{
+                    padding-bottom: 2px;
+                    list-style-type: none;
+                    text-transform: capitalize;
+                }
+            }
+    
+        }
+
+        .bottomDetailsCard{
+            
+        }
 }

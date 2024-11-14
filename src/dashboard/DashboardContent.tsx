@@ -18,23 +18,17 @@ const DashboardContent = () => {
   const optionsModalRef = useRef<HTMLTableDataCellElement>(null);
 
   // toggling filter modal
-  const toggleFilterModal = () => {
-    setFilterOpen(!filterOpen);
-
-    if (filterOpen) {
-      filterModalRef.current?.classList.remove("filterModalHidden");
-    } else {
-      filterModalRef.current?.classList.add("filterModalHidden");
-    }
-  };
+  useEffect(() => {
+    filterOpen
+      ? filterModalRef.current?.classList.remove("filterModalHidden")
+      : filterModalRef.current?.classList.add("filterModalHidden");
+  }, [filterOpen]);
 
   // toggling options modal
   useEffect(() => {
-    if (optionsModalOpen) {
-      optionsModalRef.current?.classList.remove("optionsModalHidden");
-    } else {
-      optionsModalRef.current?.classList.add("optionsModalHidden");
-    }
+    optionsModalOpen
+      ? optionsModalRef.current?.classList.remove("optionsModalHidden")
+      : optionsModalRef.current?.classList.add("optionsModalHidden");
 
     console.log(optionsModalOpen);
   }, [optionsModalOpen]);
@@ -74,7 +68,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
             <th>
@@ -82,7 +76,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
             <th>
@@ -90,7 +84,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
             <th>
@@ -98,7 +92,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
             <th>
@@ -106,7 +100,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
             <th>
@@ -114,7 +108,7 @@ const DashboardContent = () => {
               <img
                 src={filterIcon}
                 alt="filter icon"
-                onClick={toggleFilterModal}
+                onClick={() => setFilterOpen(!filterOpen)}
               />
             </th>
           </tr>
@@ -123,36 +117,39 @@ const DashboardContent = () => {
         <tbody>
           <tr>
             <td
-              className="tableItem"
-              onClick={() => setOptionsModalOpen(false)}
+              className="tableItem organizationName"
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
             >
               lendsqr
             </td>
             <td
-              className="tableItem"
-              onClick={() => setOptionsModalOpen(false)}
+              className="tableItem username"
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
             >
               adedeji
             </td>
             <td
               className="tableItem"
-              onClick={() => setOptionsModalOpen(false)}
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
             >
               adedeji@lendsqr.com
             </td>
             <td
               className="tableItem"
-              onClick={() => setOptionsModalOpen(false)}
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
             >
               08078903721
             </td>
             <td
               className="tableItem"
-              onClick={() => setOptionsModalOpen(false)}
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
             >
               May 15, 2020 10:00 AM
             </td>
-            <td className="tableItem">
+            <td
+              className="tableItem"
+              onClick={() => setOptionsModalOpen(!optionsModalOpen)}
+            >
               <span>Inactive</span>
               <img
                 src={optionIcon}
