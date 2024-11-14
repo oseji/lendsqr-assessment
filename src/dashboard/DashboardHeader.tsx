@@ -23,11 +23,17 @@ const DashboardHeader = () => {
       </div>
 
       <div className="headerGroup">
-        <span>Docs</span>
+        <span style={{ textDecoration: "underline", color: "#213F7D" }}>
+          Docs
+        </span>
 
         <img src={bell} alt="Notification icon" />
 
-        <img src={avatar} alt="Profile picture" />
+        <div>
+          <img src={avatar} alt="Profile picture" />
+
+          <span>Adedeji</span>
+        </div>
       </div>
     </header>
   );

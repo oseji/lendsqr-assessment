@@ -3,7 +3,11 @@ import { useState } from "react";
 import lendSqrLogo from "./assets/Logo.svg";
 import loginPageImage from "./assets/pablo-sign-in 1.png";
 
-const LoginPage = () => {
+type loginPageProps = {
+  setIsLoggedIn: (loading: boolean) => void;
+};
+
+const LoginPage = (props: loginPageProps) => {
   const [passwordSpan, setPasswordSpan] = useState<"show" | "hide">("show");
 
   return (
@@ -72,7 +76,13 @@ const LoginPage = () => {
               FORGOT PASSWORD?
             </p>
 
-            <button>LOG IN</button>
+            <button
+              onClick={() => {
+                props.setIsLoggedIn(true);
+              }}
+            >
+              LOG IN
+            </button>
           </div>
         </form>
       </section>

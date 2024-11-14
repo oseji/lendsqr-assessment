@@ -5,17 +5,33 @@
     font-style: normal;
 }
 
+$primary-text-color:#213F7D;
+
 *{
     box-sizing: border-box;
     margin: 0;
+
+    input::-webkit-inner-spin-button {
+            @apply hidden;
+        }
+    
+        ::-webkit-scrollbar {
+            @apply w-2;
+        }
+    
+        ::-webkit-scrollbar-thumb {
+            @apply bg-gray-300 hover:bg-gray-400 rounded-md cursor-pointer;
+        }
 }
 
+
 #App{
-    padding:  0 97px;
     font-family: 'Poppins',sans-serif;
 }
 
 #loginPage{
+    padding: 0 97px;
+
     section{
         display: flex;
         flex-direction: row;
@@ -44,7 +60,7 @@
         h1{
             font-size: 2.5rem;
             font-weight: 700;
-            color: #213F7D;
+            color: $primary-text-color;
         }
     }
 
@@ -65,7 +81,6 @@
         width: 100%;
         outline: none;
         border: none;
-
     }
 
     button{
@@ -80,3 +95,177 @@
     }
 }
 
+#dashboard{
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 30px;
+
+        .loginInputGroup{
+            width: 444px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            // margin-bottom: 24px;
+            margin-left: 168px;
+            
+        }
+
+        .loginInputGroup button{
+            border: none;
+            padding: 13px 21px;
+            border-radius: 0 5px 5px 0;
+            background-color: #39CDCC;
+            cursor: pointer;
+        }
+
+        .loginInputGroup input {
+            width: 100%;
+            padding: 12px;
+            outline: none;
+            border: 2px solid;
+            border-radius: 5px 0 0 5px;
+            border-color: #545F7D26;
+            }
+
+        .headerGroup{
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .headerGroup div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            color: $primary-text-color;
+            cursor: pointer;
+        }
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+#sidebar{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .sidebarItemGroup{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .sidebarItemGroup h1{
+        font-size: 0.75rem;
+        color: $primary-text-color;
+        padding-left: 30px;
+    }
+
+    .sidebarItem{
+        width: 290px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+
+    .sidebarItemActive{
+        background-color: #39cdcd20;
+        
+    }
+
+    .sidebarItem span{
+        color: #545F7D;
+        text-transform: capitalize;
+    }
+
+    
+}
+
+#dashboardContent{
+    width: 100%;
+    background-color: rgba(239, 239, 239, 0.51);
+    min-height: 100dvh;
+    max-height: 100dvh;
+    padding: 30px;
+
+    .userOverviewCards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 26px;
+        margin-top: 40px;
+
+        .userCards{
+            width: 25%;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 30px;
+            color: $primary-text-color;
+
+            .cardTitle{
+                text-transform: uppercase;
+                font-size: 0.875rem;
+                font-weight: 500;
+                margin: 12px 0;
+            }
+
+            .cardNum{
+                font-weight: 600;
+                font-size: 1.5rem;
+            }
+        }
+
+    }
+
+    table {
+        width: 100%;
+        margin-top: 40px;
+        background-color: #fff;
+        padding: 30px;
+
+        thead{
+            width: 100%;
+        }
+
+        tr{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        th {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 12px;
+            gap: 5px;
+        }
+
+        td{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 35px;
+        }
+
+    }
+   
+}

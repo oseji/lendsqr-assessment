@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
-import DashboardHeader from "../DashboardHeader";
+import DashboardHeader from "./DashboardHeader";
 import DashboardContent from "./DashboardContent";
+import UserDetails from "./Userdetails";
 
 const Dashboard = () => {
   return (
