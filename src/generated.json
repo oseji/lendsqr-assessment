@@ -1,0 +1,512 @@
+[
+  {
+    "_id": "67374779634bfb5447304edf",
+    "index": 0,
+    "guid": "7c8b1161-6e13-4234-85a5-cc91207e8f0f",
+    "fullName": "Melba Hodge",
+    "email": "melbahodge@exoblue.com",
+    "bvn": 2098733563,
+    "isActive": true,
+    "phone": "+234 (973) 419-2028",
+    "status": "Active",
+    "balance": "3,458.32",
+    "gender": "female",
+    "dateJoined": "May 26, 2021 03:44 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "HND",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Education",
+      "employmentDuration": "7 years",
+      "officeEmail": "lucilemercado@fleetmix.com",
+      "monthlyIncome": 537438,
+      "loanRepayment": 169378
+    },
+    "socials": {
+      "twitter": "@elit715",
+      "facebook": "@proident800",
+      "instagram": "@aliqua851"
+    },
+    "guarantor": {
+      "fullName": "Strickland Paul",
+      "phoneNumber": "+234 (831) 456-3744",
+      "email": "stricklandpaul@fleetmix.com",
+      "relationship": "Friend"
+    }
+  },
+  {
+    "_id": "673747790a920641f61ff2da",
+    "index": 1,
+    "guid": "9b7c82c4-3e2f-4f56-90ed-5a878606a989",
+    "fullName": "Kenya Mcmahon",
+    "email": "kenyamcmahon@fleetmix.com",
+    "bvn": 5231100779,
+    "isActive": false,
+    "phone": "+234 (819) 427-2433",
+    "status": "Inactive",
+    "balance": "1,557.63",
+    "gender": "female",
+    "dateJoined": "Jun 11, 2020 02:55 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "HND",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Retail",
+      "employmentDuration": "7 years",
+      "officeEmail": "galestafford@anacho.com",
+      "monthlyIncome": 736959,
+      "loanRepayment": 158399
+    },
+    "socials": {
+      "twitter": "@in270",
+      "facebook": "@aliqua295",
+      "instagram": "@aute260"
+    },
+    "guarantor": {
+      "fullName": "Dunlap Barrera",
+      "phoneNumber": "+234 (947) 557-2545",
+      "email": "dunlapbarrera@anacho.com",
+      "relationship": "Professional Contact"
+    }
+  },
+  {
+    "_id": "67374779f39748689b87c759",
+    "index": 2,
+    "guid": "6c688f48-e7af-41b0-9644-3b56cd791492",
+    "fullName": "Shelia Forbes",
+    "email": "sheliaforbes@anacho.com",
+    "bvn": 6667039412,
+    "isActive": true,
+    "phone": "+234 (995) 591-3025",
+    "status": "Active",
+    "balance": "2,428.29",
+    "gender": "female",
+    "dateJoined": "Jan 03, 2023 07:10 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "PhD",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Technology",
+      "employmentDuration": "9 years",
+      "officeEmail": "joanneday@puria.com",
+      "monthlyIncome": 718589,
+      "loanRepayment": 235307
+    },
+    "socials": {
+      "twitter": "@nulla700",
+      "facebook": "@qui652",
+      "instagram": "@occaecat650"
+    },
+    "guarantor": {
+      "fullName": "Copeland Rogers",
+      "phoneNumber": "+234 (847) 591-3469",
+      "email": "copelandrogers@puria.com",
+      "relationship": "Family"
+    }
+  },
+  {
+    "_id": "6737477915640c0885f8f745",
+    "index": 3,
+    "guid": "184390e4-8947-4807-b160-cae263a99cea",
+    "fullName": "Marci Reyes",
+    "email": "marcireyes@puria.com",
+    "bvn": 3601960151,
+    "isActive": true,
+    "phone": "+234 (924) 576-2476",
+    "status": "Active",
+    "balance": "2,540.15",
+    "gender": "female",
+    "dateJoined": "Aug 24, 2024 02:34 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "MSc",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Fintech",
+      "employmentDuration": "5 years",
+      "officeEmail": "ritacollier@zork.com",
+      "monthlyIncome": 230930,
+      "loanRepayment": 122364
+    },
+    "socials": {
+      "twitter": "@nulla246",
+      "facebook": "@est755",
+      "instagram": "@Lorem975"
+    },
+    "guarantor": {
+      "fullName": "Potter Bowman",
+      "phoneNumber": "+234 (922) 451-2059",
+      "email": "potterbowman@zork.com",
+      "relationship": "Colleague"
+    }
+  },
+  {
+    "_id": "67374779584d5cbcada669a8",
+    "index": 4,
+    "guid": "88a2ae8a-73fe-4d49-bc0a-c39e9dd1bb51",
+    "fullName": "Soto Willis",
+    "email": "sotowillis@zork.com",
+    "bvn": 5120845957,
+    "isActive": false,
+    "phone": "+234 (938) 443-2776",
+    "status": "Blacklisted",
+    "balance": "2,747.28",
+    "gender": "male",
+    "dateJoined": "Dec 18, 2023 08:31 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "PhD",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Fintech",
+      "employmentDuration": "7 years",
+      "officeEmail": "mendozabates@bluplanet.com",
+      "monthlyIncome": 388196,
+      "loanRepayment": 132270
+    },
+    "socials": {
+      "twitter": "@ex497",
+      "facebook": "@deserunt902",
+      "instagram": "@veniam559"
+    },
+    "guarantor": {
+      "fullName": "Rasmussen Mendez",
+      "phoneNumber": "+234 (873) 531-3341",
+      "email": "rasmussenmendez@bluplanet.com",
+      "relationship": "Former Employer"
+    }
+  },
+  {
+    "_id": "67374779b9060d4bdb76e5ea",
+    "index": 5,
+    "guid": "72a11e31-0767-436b-b663-7672f7ab06c3",
+    "fullName": "Schneider Caldwell",
+    "email": "schneidercaldwell@bluplanet.com",
+    "bvn": 8825635903,
+    "isActive": false,
+    "phone": "+234 (855) 446-3283",
+    "status": "Blacklisted",
+    "balance": "1,539.11",
+    "gender": "male",
+    "dateJoined": "May 29, 2023 12:48 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "MSc",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Retail",
+      "employmentDuration": "8 years",
+      "officeEmail": "mcintyredecker@dogspa.com",
+      "monthlyIncome": 569764,
+      "loanRepayment": 76144
+    },
+    "socials": {
+      "twitter": "@minim723",
+      "facebook": "@elit263",
+      "instagram": "@reprehenderit157"
+    },
+    "guarantor": {
+      "fullName": "Owen Carlson",
+      "phoneNumber": "+234 (984) 463-3753",
+      "email": "owencarlson@dogspa.com",
+      "relationship": "Former Employer"
+    }
+  },
+  {
+    "_id": "6737477952ea4b1849512bfa",
+    "index": 6,
+    "guid": "55b22a86-6892-4c60-9266-62cb7fe0e547",
+    "fullName": "Martha Meadows",
+    "email": "marthameadows@dogspa.com",
+    "bvn": 8021829005,
+    "isActive": false,
+    "phone": "+234 (849) 458-2872",
+    "status": "Blacklisted",
+    "balance": "2,035.98",
+    "gender": "female",
+    "dateJoined": "Feb 10, 2020 09:35 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "MSc",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Fintech",
+      "employmentDuration": "15 years",
+      "officeEmail": "herringevans@turnling.com",
+      "monthlyIncome": 885671,
+      "loanRepayment": 119243
+    },
+    "socials": {
+      "twitter": "@elit977",
+      "facebook": "@eiusmod641",
+      "instagram": "@sunt158"
+    },
+    "guarantor": {
+      "fullName": "Jacobs Cotton",
+      "phoneNumber": "+234 (926) 524-3717",
+      "email": "jacobscotton@turnling.com",
+      "relationship": "Friend"
+    }
+  },
+  {
+    "_id": "6737477916442ceeac8477c9",
+    "index": 7,
+    "guid": "2f50cd85-1c74-4638-8612-2bd5cb90bf51",
+    "fullName": "Bruce Curry",
+    "email": "brucecurry@turnling.com",
+    "bvn": 6919410480,
+    "isActive": true,
+    "phone": "+234 (812) 417-2736",
+    "status": "Active",
+    "balance": "3,422.26",
+    "gender": "male",
+    "dateJoined": "Apr 22, 2022 10:35 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "BSc",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Manufacturing",
+      "employmentDuration": "10 years",
+      "officeEmail": "vickinorman@updat.com",
+      "monthlyIncome": 420888,
+      "loanRepayment": 81641
+    },
+    "socials": {
+      "twitter": "@nostrud714",
+      "facebook": "@nulla270",
+      "instagram": "@consequat550"
+    },
+    "guarantor": {
+      "fullName": "Dickson Crane",
+      "phoneNumber": "+234 (968) 564-3239",
+      "email": "dicksoncrane@updat.com",
+      "relationship": "Family"
+    }
+  },
+  {
+    "_id": "67374779e0fc1ef1f5ac1d42",
+    "index": 8,
+    "guid": "672424f5-8651-4c4b-8cb5-fc397af3c5f9",
+    "fullName": "Richards Buckner",
+    "email": "richardsbuckner@updat.com",
+    "bvn": 1299971931,
+    "isActive": false,
+    "phone": "+234 (894) 440-2239",
+    "status": "Pending",
+    "balance": "3,963.95",
+    "gender": "male",
+    "dateJoined": "Aug 06, 2024 03:29 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "HND",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Banking",
+      "employmentDuration": "6 years",
+      "officeEmail": "zamorahenry@ramjob.com",
+      "monthlyIncome": 732959,
+      "loanRepayment": 81658
+    },
+    "socials": {
+      "twitter": "@ut236",
+      "facebook": "@exercitation463",
+      "instagram": "@eu692"
+    },
+    "guarantor": {
+      "fullName": "Dana Dawson",
+      "phoneNumber": "+234 (969) 558-3780",
+      "email": "danadawson@ramjob.com",
+      "relationship": "Colleague"
+    }
+  },
+  {
+    "_id": "673747794def3a56fa071363",
+    "index": 9,
+    "guid": "ff39352c-d32e-4aae-99cd-b7584b043557",
+    "fullName": "Love Webb",
+    "email": "lovewebb@ramjob.com",
+    "bvn": 5578304928,
+    "isActive": false,
+    "phone": "+234 (816) 560-2192",
+    "status": "Blacklisted",
+    "balance": "1,608.07",
+    "gender": "male",
+    "dateJoined": "Feb 07, 2020 01:45 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "HND",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Technology",
+      "employmentDuration": "11 years",
+      "officeEmail": "santosnorton@locazone.com",
+      "monthlyIncome": 420973,
+      "loanRepayment": 72341
+    },
+    "socials": {
+      "twitter": "@quis148",
+      "facebook": "@sunt594",
+      "instagram": "@magna119"
+    },
+    "guarantor": {
+      "fullName": "Marsh Battle",
+      "phoneNumber": "+234 (855) 592-4000",
+      "email": "marshbattle@locazone.com",
+      "relationship": "Colleague"
+    }
+  },
+  {
+    "_id": "67374779c8b21b9f2aef2a6d",
+    "index": 10,
+    "guid": "8628dfa3-508c-41d2-8d43-42c7f6a6bc28",
+    "fullName": "Lynda Bauer",
+    "email": "lyndabauer@locazone.com",
+    "bvn": 1902142230,
+    "isActive": false,
+    "phone": "+234 (913) 404-2471",
+    "status": "Blacklisted",
+    "balance": "3,809.80",
+    "gender": "female",
+    "dateJoined": "Feb 16, 2020 07:48 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "PhD",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Technology",
+      "employmentDuration": "9 years",
+      "officeEmail": "jolenerose@deminimum.com",
+      "monthlyIncome": 682281,
+      "loanRepayment": 173906
+    },
+    "socials": {
+      "twitter": "@elit674",
+      "facebook": "@nulla620",
+      "instagram": "@nostrud647"
+    },
+    "guarantor": {
+      "fullName": "Everett Bass",
+      "phoneNumber": "+234 (982) 525-3531",
+      "email": "everettbass@deminimum.com",
+      "relationship": "Friend"
+    }
+  },
+  {
+    "_id": "67374779e61c781e838a8060",
+    "index": 11,
+    "guid": "bd0ae1c1-c203-46b0-a469-d71aa53adead",
+    "fullName": "Donna Rhodes",
+    "email": "donnarhodes@deminimum.com",
+    "bvn": 5081396086,
+    "isActive": false,
+    "phone": "+234 (823) 526-3557",
+    "status": "Blacklisted",
+    "balance": "2,243.50",
+    "gender": "female",
+    "dateJoined": "Oct 16, 2020 06:20 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "HND",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Education",
+      "employmentDuration": "11 years",
+      "officeEmail": "acostalandry@kinetica.com",
+      "monthlyIncome": 421987,
+      "loanRepayment": 281112
+    },
+    "socials": {
+      "twitter": "@ullamco441",
+      "facebook": "@anim825",
+      "instagram": "@et959"
+    },
+    "guarantor": {
+      "fullName": "Mullins Ashley",
+      "phoneNumber": "+234 (975) 511-3588",
+      "email": "mullinsashley@kinetica.com",
+      "relationship": "Family"
+    }
+  },
+  {
+    "_id": "6737477905b279364e2d5ad7",
+    "index": 12,
+    "guid": "6f02c9e0-2794-4b4b-a89a-3bab66c7b52e",
+    "fullName": "Tisha Clayton",
+    "email": "tishaclayton@kinetica.com",
+    "bvn": 2578341214,
+    "isActive": true,
+    "phone": "+234 (815) 415-3520",
+    "status": "Active",
+    "balance": "2,390.06",
+    "gender": "female",
+    "dateJoined": "Apr 07, 2021 11:23 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "BSc",
+      "employmentStatus": "employed",
+      "sectorOfEmployment": "Fintech",
+      "employmentDuration": "5 years",
+      "officeEmail": "danielledouglas@retrack.com",
+      "monthlyIncome": 449057,
+      "loanRepayment": 211383
+    },
+    "socials": {
+      "twitter": "@eiusmod574",
+      "facebook": "@nisi476",
+      "instagram": "@fugiat303"
+    },
+    "guarantor": {
+      "fullName": "Leslie Herring",
+      "phoneNumber": "+234 (815) 587-3194",
+      "email": "leslieherring@retrack.com",
+      "relationship": "Professional Contact"
+    }
+  },
+  {
+    "_id": "67374779802dfe54b5fdcfcf",
+    "index": 13,
+    "guid": "bee7e54c-2036-4753-8ae4-fbbc0c786c66",
+    "fullName": "Katheryn Aguirre",
+    "email": "katherynaguirre@retrack.com",
+    "bvn": 4466780135,
+    "isActive": true,
+    "phone": "+234 (980) 403-2157",
+    "status": "Active",
+    "balance": "1,915.10",
+    "gender": "female",
+    "dateJoined": "Jan 07, 2024 11:22 PM",
+    "educationAndEmployment": {
+      "levelOfEducation": "MSc",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Healthcare",
+      "employmentDuration": "9 years",
+      "officeEmail": "hughesshelton@miracula.com",
+      "monthlyIncome": 945611,
+      "loanRepayment": 299033
+    },
+    "socials": {
+      "twitter": "@sint703",
+      "facebook": "@culpa692",
+      "instagram": "@ullamco774"
+    },
+    "guarantor": {
+      "fullName": "Lesley Spears",
+      "phoneNumber": "+234 (941) 506-3400",
+      "email": "lesleyspears@miracula.com",
+      "relationship": "Friend"
+    }
+  },
+  {
+    "_id": "6737477989bdd2854463abb1",
+    "index": 14,
+    "guid": "a9400ed6-4dd5-433f-a5ca-50104221ce48",
+    "fullName": "Carey Cain",
+    "email": "careycain@miracula.com",
+    "bvn": 3495138723,
+    "isActive": true,
+    "phone": "+234 (918) 562-2401",
+    "status": "Active",
+    "balance": "3,996.62",
+    "gender": "female",
+    "dateJoined": "Mar 24, 2024 12:46 AM",
+    "educationAndEmployment": {
+      "levelOfEducation": "PhD",
+      "employmentStatus": "unemployed",
+      "sectorOfEmployment": "Retail",
+      "employmentDuration": "3 years",
+      "officeEmail": "jodymckee@endicil.com",
+      "monthlyIncome": 683428,
+      "loanRepayment": 169229
+    },
+    "socials": {
+      "twitter": "@sint363",
+      "facebook": "@minim522",
+      "instagram": "@sint393"
+    },
+    "guarantor": {
+      "fullName": "Cynthia Melendez",
+      "phoneNumber": "+234 (891) 473-2540",
+      "email": "cynthiamelendez@endicil.com",
+      "relationship": "Former Employer"
+    }
+  }
+]
