@@ -15,10 +15,16 @@ $active-color: #39CD62;
     scale: 0;
 }
 
+.activeTab{
+    border-bottom: 2px solid #39CDCC;
+    color: #39CDCC;
+}
+
 
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 
     input::-webkit-inner-spin-button {
             display: none;
@@ -35,10 +41,6 @@ $active-color: #39CD62;
         }
 }
 
-
-#App{
-    font-family: 'Poppins',sans-serif;
-}
 
 #loginPage{
     padding: 0 97px;
@@ -112,7 +114,7 @@ $active-color: #39CD62;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 30px;
+        padding: 20px 30px;
 
         .loginInputGroup{
             width: 444px;
@@ -162,14 +164,24 @@ $active-color: #39CD62;
     main{
         display: flex;
         flex-direction: row;
+        max-height: 100dvh;
+        overflow-y: hidden;
+
+        ::-webkit-scrollbar {
+                width: 0;
+            }
     }
 }
 
+
 #sidebar{
+    width: 350px;
     padding: 30px 0;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
     .sidebarItemGroup{
         display: flex;
@@ -209,8 +221,6 @@ $active-color: #39CD62;
 #dashboardContent{
     width: 100%;
     background-color: rgba(239, 239, 239, 0.51);
-    min-height: 100dvh;
-    max-height: 100dvh;
     padding: 30px;
 
     .userOverviewCards{
@@ -388,9 +398,10 @@ $active-color: #39CD62;
 
 #userDetails{
     width: 100%;
-    background-color: rgba(239, 239, 239, 0.51);
     min-height: 100dvh;
     max-height: 100dvh;
+    overflow-y: scroll;
+    background-color: rgba(239, 239, 239, 0.51);
     padding: 30px;
 
     .headingGroup{
@@ -440,23 +451,52 @@ $active-color: #39CD62;
                 align-items: center;
                 gap: 20px;
                 width: 100%;
-    
-                .nameAndRegNumber {
-                    h2 {
-                        color: $primary-text-color;
-                        font-size: 1.375rem;
-                        font-weight: 500;
-                    }
 
-                    p{
-                        font-size: 0.875rem;
-                    }
-                }
-    
-                .starsGroup {
+                .subGroup{
                     display: flex;
                     flex-direction: row;
                     align-items: center;
+                    gap: 30px;
+
+                    .nameAndRegNumber {
+                            h2 {
+                                color: $primary-text-color;
+                                font-size: 1.375rem;
+                                font-weight: 500;
+                            }
+                    
+                            p {
+                                font-size: 0.875rem;
+                                color: $inactive-color;
+                            }
+                        }
+                    
+                        .tierGroup {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 10px;
+                            padding: 10px 20px;
+                            border-left: 1px solid $inactive-color;
+                            border-right: 1px solid $inactive-color;
+                    
+                            .starsGroup {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                            }
+                        }
+                    
+                        .balance {
+                            font-size: 1.375rem;
+                            font-weight: 500;
+                            color: $primary-text-color;
+                        }
+                    
+                        .bankName {
+                            color: $primary-text-color;
+                            font-size: 0.75rem;
+                        }
                 }
             }
 
@@ -473,6 +513,7 @@ $active-color: #39CD62;
                     padding-bottom: 2px;
                     list-style-type: none;
                     text-transform: capitalize;
+                    cursor: pointer;
                 }
             }
     
@@ -480,7 +521,7 @@ $active-color: #39CD62;
 
         .bottomDetailsCard{
             width: 100%;
-            padding: 0 30px;
+            padding: 0 30px 30px;
             margin-top: 30px;
             background-color: #fff;
             border-radius: 4px;
