@@ -12,6 +12,7 @@ const Dashboard = () => {
 
       <main>
         <Sidebar />
+
         <Routes>
           {/* <Route path="/" element={<DashboardContent />} /> */}
 

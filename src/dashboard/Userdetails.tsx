@@ -9,7 +9,10 @@ const UserDetails = () => {
   return (
     <div id="userDetails">
       <div>
-        <img src={backArrow} alt="arrow" />
+        <Link to={"/DashboardContent"}>
+          <img src={backArrow} alt="arrow" style={{ cursor: "pointer" }} />
+        </Link>
+
         <span style={{ marginLeft: "10px", color: "#545F7D" }}>
           Back to Users
         </span>
@@ -33,28 +36,30 @@ const UserDetails = () => {
         <div className="topSection">
           <img src={avatar} alt="profile picture" />
 
-          <div className="nameAndRegNumber">
-            <h2>Grace Effiom</h2>
-            <p>LSQFf587g90</p>
-          </div>
-
-          <div>
-            <p>User’s Tier</p>
-            <div className="starsGroup">
-              <img src={filledStar} alt="star icon" />
-              <img src={emptyStar} alt="star icon" />
-              <img src={emptyStar} alt="star icon" />
+          <div className="subGroup">
+            <div className="nameAndRegNumber">
+              <h2>Grace Effiom</h2>
+              <p>LSQFf587g90</p>
             </div>
-          </div>
 
-          <div>
-            <p>₦200,000.00</p>
-            <p>9912345678/Providus Bank</p>
+            <div className="tierGroup">
+              <p style={{ color: "#545F7D" }}>User’s Tier</p>
+              <div className="starsGroup">
+                <img src={filledStar} alt="star icon" />
+                <img src={emptyStar} alt="star icon" />
+                <img src={emptyStar} alt="star icon" />
+              </div>
+            </div>
+
+            <div>
+              <p className="balance">₦200,000.00</p>
+              <p className="bankName">9912345678/Providus Bank</p>
+            </div>
           </div>
         </div>
 
         <ul className="bottomSection">
-          <li>general details</li>
+          <li className="activeTab">general details</li>
           <li>documents</li>
           <li>bank details</li>
           <li>loans</li>
